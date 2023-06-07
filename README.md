@@ -2,7 +2,7 @@
 ## Jonathan Knittel and Ram Bhagat
 ### HackBU 2023, February 4th
 
-In order to use, a key file is needed to be created called keyFile.txt, with the first line being the key and the second line being the orginzation key. 
+In order to use, a key file is needed to be created called keyFile.txt and placed in the same directory as index.js, with the first line being an OpenAI api key.
 Run node index.js and then use a browser to go to localhost:7777, the console will notify you when the current request is finished and the slides can then be downloaded.
 
 
