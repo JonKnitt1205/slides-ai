@@ -3,8 +3,7 @@ import requests
 
 # this class calls the Dalle Api with the title of the each slide
 class clipArtBot():
-    def __init__(self, key:str, orginization:str):
-        openai.organization = orginization
+    def __init__(self, key:str):
         openai.api_key = key
     
     # returns the bytes of all the images for the slideshow
