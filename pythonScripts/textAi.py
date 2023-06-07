@@ -1,8 +1,7 @@
 import openai
 
 class chatBot():
-    def __init__(self, key:str, orginization:str):
-        openai.organization = orginization
+    def __init__(self, key:str):
         openai.api_key = key
 
     # generates the text for each slide
